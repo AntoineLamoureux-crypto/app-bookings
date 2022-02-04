@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/client/bookings-ui/node_modules
+/client/bookings-ui/.pnp
+/client/bookings-ui/.pnp.js
+
+# testing
+/client/bookings-ui//coverage
+
+# production
+/client/bookings-ui//build
+
+# misc
+/client/bookings-ui/.DS_Store
+/client/bookings-ui/.env.local
+/client/bookings-ui/.env.development.local
+/client/bookings-ui/.env.test.local
+/client/bookings-ui/.env.production.local
+
+/client/bookings-ui/npm-debug.log*
+/client/bookings-ui/yarn-debug.log*
+/client/bookings-ui/yarn-error.log*
